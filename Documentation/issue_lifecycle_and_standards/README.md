@@ -23,6 +23,15 @@ Create an issue when:
 ### Ownership
 - **Assignee**: Person responsible for delivery
 
+### Sub-issues
+Sub issues exist to:
+- Break down parent issue into anything developer wishes to track
+- Allow developer to see what is left until acceptance criteria is met
+- Other develoeprs to see what's left and be able to pick up work easier if teammate is out.
+
+### Ownership
+- **Assignee**: Managed by assignee. is able to close and manage all sub issues on their own.
+
 ---
 
 ## 2. What to Include in an Issue
@@ -290,9 +299,7 @@ This document should be reviewed regulary. Team members are encouraged to sugges
 
 ---
 
-## 16. GitHub Project Board Setup ([XR Project](https://github.com/users/vitaovich/projects/3))
-
-
+## 12. GitHub Project Board Setup ([XR Project](https://github.com/users/vitaovich/projects/3))
 
 ```mermaid
 flowchart LR
@@ -304,7 +311,7 @@ flowchart LR
 
 ---
 
-## 17. Branching & PR Standards
+## 13. Branching & PR Standards
 
 ### Branch Naming
 
