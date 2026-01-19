@@ -1,0 +1,30 @@
+name: Research / Spike
+description: Time-boxed investigation or discovery work
+title: "[Research]: "
+labels: ["research"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Research Question / Goal
+      description: What are we trying to learn or decide?
+    validations:
+      required: true
+
+  - type: input
+    id: timebox
+    attributes:
+      label: Time Box
+      description:  put how many developers and how many days you plan to take researching. In this case it can be 1 engineer for 2 days. This would look like 1E2D (1 Engineer 2 Days).
+      placeholder: e.g. 2E3D or 1E2D
+
+  - type: textarea
+    id: deliverable
+    attributes:
+      label: Expected Output
+      placeholder: Summary, recommendation, follow-up issues
+
+  - type: textarea
+    id: findings
+    attributes:
+      label: Findings (to be completed before closing)
