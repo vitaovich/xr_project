@@ -1,0 +1,57 @@
+name: Feature Request
+description: Propose a new feature or enhancement
+title: "[Feature]: "
+labels: ["feature"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What problem does this solve? Who is impacted and why?
+      placeholder: Describe the problem and business/user value
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: Define what must be true for this to be considered done
+      placeholder: |
+        - [ ] Given ... When ... Then ...
+        - [ ] ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What is in scope and out of scope
+      placeholder: |
+        In scope:
+        -
+        Out of scope:
+        -
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies / Blockers
+      description: External work, approvals, or dependencies
+
+  - type: input
+    id: estimate
+    attributes:
+      label: Size / Estimate
+      placeholder: e.g. S, M, L or Story Points
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - P0 - Critical
+        - P1 - High
+        - P2 - Medium
+        - P3 - Low
