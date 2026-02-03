@@ -388,6 +388,7 @@ MonoBehaviour:
   requestEyeTrackingPermissionOnStartup: 0
   requestScenePermissionOnStartup: 0
   requestRecordAudioPermissionOnStartup: 0
+  requestPassthroughCameraAccessPermissionOnStartup: 0
   _localDimming: 1
   _trackingOriginType: 1
   usePositionTracking: 1
@@ -1012,6 +1013,63 @@ MonoBehaviour:
     _installationVariants:
     - _memberName: mode
       _value: '{"value__":0}'
+--- !u!1001 &1366183755
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5618556046422172173, guid: 4b454e8ccd6764ccdbcd91586969863f, type: 3}
+      propertyPath: m_Name
+      value: Bedroom00
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618556046422172174, guid: 4b454e8ccd6764ccdbcd91586969863f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.25894716
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618556046422172174, guid: 4b454e8ccd6764ccdbcd91586969863f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00033964575
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618556046422172174, guid: 4b454e8ccd6764ccdbcd91586969863f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.93052715
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618556046422172174, guid: 4b454e8ccd6764ccdbcd91586969863f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618556046422172174, guid: 4b454e8ccd6764ccdbcd91586969863f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618556046422172174, guid: 4b454e8ccd6764ccdbcd91586969863f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618556046422172174, guid: 4b454e8ccd6764ccdbcd91586969863f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618556046422172174, guid: 4b454e8ccd6764ccdbcd91586969863f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618556046422172174, guid: 4b454e8ccd6764ccdbcd91586969863f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618556046422172174, guid: 4b454e8ccd6764ccdbcd91586969863f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4b454e8ccd6764ccdbcd91586969863f, type: 3}
 --- !u!1 &1456795654
 GameObject:
   m_ObjectHideFlags: 0
@@ -1182,6 +1240,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 1648880444}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _forceKinematicDisabled: 0
 --- !u!54 &1648880444
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1682,3 +1741,4 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 665298876}
   - {fileID: 1648880449}
+  - {fileID: 1366183755}
